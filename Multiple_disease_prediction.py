@@ -255,7 +255,7 @@ if(selected == 'Parkinsons Prediction'):
     
     if st.button("Parkinson's Test Result"):
         try:
-            parkinsons_prediction = parkinson_model.predict([[
+            parkinsons_prediction = parkinsons_model.predict([[
                 float(fo), float(fhi), float(flo), float(jitter_percent), float(jitter_abs),
                 float(rap), float(ppq), float(ddp), float(shimmer), float(shimmer_db),
                 float(apq3), float(apq5), float(mdvp_apq), float(dda), float(nhr),
@@ -285,4 +285,5 @@ if(selected == 'Parkinsons Prediction'):
     
     
     
+
     
